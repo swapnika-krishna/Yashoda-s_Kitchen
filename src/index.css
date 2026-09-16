@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Marcellus', 'Cinzel', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+    --font-body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #FAF6EE;
+    color: #1E293B;
+  }
+
+  h1, h2, h3, h4, .font-serif-devotional {
+    font-family: var(--font-heading);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Subtle traditional Indian geometric motif background */
+.bg-mandala-pattern {
+  background-color: #FAF6EE;
+  background-image: radial-gradient(#D9770618 0.75px, transparent 0.75px), radial-gradient(#0D472B10 0.75px, #FAF6EE 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Subtle gold border effect */
+.border-gold-subtle {
+  border-color: #D4AF37;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B38728 0%, #D4AF37 50%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-ornate {
+  border: 1px solid #D4AF37;
+  box-shadow: 0 0 0 1px #D4AF3740 inset;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EEDB;
+}
+::-webkit-scrollbar-thumb {
+  background: #C59B27;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A67C1E;
+}

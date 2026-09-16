@@ -1,0 +1,8 @@
+{
+  "name": "Remix Yashoda’s Divine Kitchen",
+  "description": "Sattvic Pickles \u0026 Powders - Pure, Traditional \u0026 Divine Indian homemade pickles, podis, and masalas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
